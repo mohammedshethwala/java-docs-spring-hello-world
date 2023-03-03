@@ -17,4 +17,9 @@ public class DemoApplication {
 	String sayHello() {
 		return "Hello World!";
 	}
+
+	@RequestMapping("/trade")
+	String getTrade() {
+		return "Trade 1234";
+	}
 }
